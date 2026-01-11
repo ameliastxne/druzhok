@@ -204,3 +204,6 @@ export default function DisgustCleanActivity({ onHome }: DisgustCleanActivityPro
     </div>
   )
 }
+
+
+
