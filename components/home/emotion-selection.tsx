@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import React, { useState } from "react"
 import type { Emotion } from "@/app/page"
 import { UserProfileDropdown } from "./user-profile-dropdown"
 

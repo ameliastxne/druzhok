@@ -1,10 +1,11 @@
 "use client"
 
-import { useState } from "react"
+import React, { useState } from "react"
 import type { Emotion } from "@/app/page"
 import { Textarea } from "@/components/ui/textarea"
 import { Mic, Send, Volume2, Home } from "lucide-react"
 import { UserProfileDropdown } from "./user-profile-dropdown"
+
 
 interface EmotionReflectionProps {
   emotion: Emotion
