@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
-import { UserProfileDropdown } from "@/components/shared/user-profile-dropdown"
+import React, { useState } from "react"
+import { UserProfileDropdown } from "./../shared/user-profile-dropdown"
 import { Home, Download, ArrowUpDown, Filter } from "lucide-react"
 
 interface ParentalSettingsPageProps {

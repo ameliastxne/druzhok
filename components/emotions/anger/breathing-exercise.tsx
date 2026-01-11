@@ -1,8 +1,8 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import React,  { useState, useEffect, useCallback } from "react"
 import { RotateCcw, Home } from "lucide-react"
-import { Sunflower } from "./sunflower"
+import { Sunflower } from "../../shared/sunflower"
 
 interface BreathingExerciseProps {
   onHome: () => void

@@ -1,8 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import React, { useState } from "react"
 import { RotateCcw, Home } from "lucide-react"
-import { Sunflower } from "@/components/shared/sunflower"
+import { Sunflower } from "../../shared/sunflower"
 
 interface JoyPaintActivityProps {
   onHome: () => void

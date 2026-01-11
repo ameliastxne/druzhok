@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
-import { Sunflower } from "@/components/shared/sunflower"
+import React, { useState } from "react"
+import { Sunflower } from "../../shared/sunflower"
 import { Volume2, RotateCcw, Home } from "lucide-react"
 
 interface SadnessStoryActivityProps {

@@ -1,9 +1,9 @@
 "use client"
 
-import type React from "react"
+import React from "react"
 import { useState, useEffect } from "react"
 import { RotateCcw, Home } from "lucide-react"
-import { Sunflower } from "./sunflower"
+import { Sunflower } from "../../shared/sunflower"
 
 interface DisgustCleanActivityProps {
   onHome: () => void
@@ -204,6 +204,3 @@ export default function DisgustCleanActivity({ onHome }: DisgustCleanActivityPro
     </div>
   )
 }
-
-
-
